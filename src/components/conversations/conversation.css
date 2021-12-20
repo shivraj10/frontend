@@ -1,0 +1,21 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.conversation:hover {
+  /* background-color: rgb(245, 243, 243); */
+  background-color: #dce1fd;
+}
+
+.conversationName {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .conversationName {
+    display: none;
+  }
+}

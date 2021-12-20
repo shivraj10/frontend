@@ -1,0 +1,84 @@
+.WholeBody {
+    background-color: #fafafa;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10px;
+}
+
+.TitleInfo {
+    display: block;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 5%;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.DateInfo {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-weight: 0;
+}
+
+.AbstractInfo {
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    word-spacing: 1px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ContentInfo {
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 15px;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 28px;
+    word-spacing: 2px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.AuthorInfo {
+    margin-top: 3%;
+    padding-left: 5%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Open Sans", sans-serif;
+}
+
+blockquote {
+    margin: 1.6em 0 1.6em 0;
+    padding: 0 0 0 1.6em;
+    border-left: #4a4a4a 0.4em solid;
+    margin: 0.8em 0;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.AuthorName {
+    font-weight: 700;
+    padding-left: 35px;
+}
